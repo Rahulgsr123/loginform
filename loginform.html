@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="shortcut icon" href="https://th.bing.com/th/id/OIP.RSd1SBlUGQoPOzA1_SqKmAHaHa?w=2133&h=2133&rs=1&pid=ImgDetMain" type="image/x-icon">
+</head>
+<body bgcolor="tan">
+    <center>
+        <fieldset>
+            <form method="post">
+            <h1>Login Form!</h1>
+            <br><br>
+            <input type="text" placeholder="Username/User Email/User Phone Number" size="50" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
+            <br><br>
+            <input type="password" name="password" id="password" size="50" placeholder="Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[@#$%^&+=]).{8,}" required>
+            <br><br>
+            <button>
+                <a href="result.html">login</a>
+            </button>
+            <p>I don't have an account|
+                <a href="index.html">SignUp</a>here
+            </p><br>
+            <p>
+                <a href="forgotpassword.html">Forgotten Password?</a>
+            </p>
+        </fieldset>
+    </center>   
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>signup page</title>
+    <link rel="shortcut icon" href="https://th.bing.com/th/id/OIP.RSd1SBlUGQoPOzA1_SqKmAHaHa?w=2133&h=2133&rs=1&pid=ImgDetMain" type="image/x-icon">
+  </head>
+  <body bgcolor="cyan">
+    <center>
+      <fieldset>
+        <i class="fa fa-id-card-o" aria-hidden="true"></i>
+        <form method="post">
+          <center>
+            <h1>SignUp Here!</h1>
+            <br /><br />
+          </center>
+          <input type="text" placeholder="Username" size="50" required />
+          <br /><br />
+
+          <input
+            type="text"
+            placeholder="Email"
+            size="50"
+            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+            required
+          />
+          <br /><br />
+
+          <input type="text" placeholder="Phone Number" size="50" required />
+          <br /><br />
+
+          <input
+            type="password"
+            placeholder="Password"
+            size="50"
+            name="password"
+            pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[@#$%^&+=]).{8,}"
+            required
+          />
+          <br /><br />
+
+          <input
+            type="password"
+            placeholder="Confirm Password"
+            size="50"
+            name="password"
+            pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[@#$%^&+=]).{8,}"
+            required
+          />
+          <br /><br />
+
+          <button type="submit">
+            <a href="result.html">submit</a>
+          </button>
+          <br /><br />
+          <p>
+            Allready have an account ! <a href="loginform.html" bg>login</a>
+          </p>
+        </form>
+      </fieldset>
+    </center>
+  </body>
+</html>
